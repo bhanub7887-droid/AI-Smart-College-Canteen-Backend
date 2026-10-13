@@ -17,7 +17,7 @@ import com.canteen.smart_canteen.repository.MenuItemRepository;
 
 @RestController
 @RequestMapping("/api/menu-items")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://ai-smart-college-canteen-frontend.onrender.com")
 public class MenuItemController {
 
     private final MenuItemRepository repository;

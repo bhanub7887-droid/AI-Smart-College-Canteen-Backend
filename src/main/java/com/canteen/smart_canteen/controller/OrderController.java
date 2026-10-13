@@ -19,7 +19,7 @@ import com.canteen.smart_canteen.repository.OrderRepository;
 
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://ai-smart-college-canteen-frontend.onrender.com")
 public class OrderController {
 
     private final OrderRepository repository;
